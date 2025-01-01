@@ -1,0 +1,54 @@
+How to write HTML tags:
+
+> Elements names are surrounded by angle brackets
+> Tag elements usually come in pairs (Start and end tag)
+> Some tags close themselves
+
+Examples:
+- <h1>Example</h1>
+- <br /> (self closing tag)
+- <br> (is fine with HTML5)
+
+Inline vs Block:
+
+> Block elements start on a new line and take the full width available
+> Inline Elements do not start on a new line and take only the necessary width
+
+Examples of the following elements:
+- Block level: <div>, <h1> -> <h6>,<p> 
+- Inline level: <span>, <a>, <button>
+
+If you want to add a link to you website:
+<a href="https://YourWebsiteHere or Path Here" target="_blank">Name of your page here</a>
+
+
+Lists:
+Ordered Lists: Usually expressed with A,B,C... or 1,2,3.
+Unordered Lists: Lists where order does not matter.
+
+Example:
+
+Unordered list:
+ <div>
+        <ul>
+          <li>Land 100k+ job</li>
+          <li>Finish Frontend Simplified</li>
+          <li>Network with other people in the same discord Server</li>
+        </ul>
+      </div>
+
+ Ordered List:
+        <section>
+      <h1>Land 100k+ job</h1>
+      <ol>
+        <li>Finish Frontend Simplified</li>
+        <li>Study for interviews</li>
+        <li>Apply to jobs</li>
+      </ol>
+
+
+Tid-bits:
+
+Think of the following tags as different parts of the body:
+
+--> <header></header> - This is the same has your head or top. The information that you put in these tags will show at the very top. 
